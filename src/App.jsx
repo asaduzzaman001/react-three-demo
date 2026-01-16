@@ -1,11 +1,12 @@
+import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import Bird from "./components/Bird";
+import Dog from "./components/Dog";
 
 function App() {
   return (
-    <>
-      <Bird />
-    </>
+    <Canvas>
+      <Dog />
+    </Canvas>
   );
 }
 
