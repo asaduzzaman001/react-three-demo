@@ -1,12 +1,16 @@
-import { Canvas } from "@react-three/fiber";
 import "./App.css";
-import Dog from "./components/Dog";
+import BG from "./pages/BG";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <Canvas>
-      <Dog />
-    </Canvas>
+    <main>
+      <BG />
+      <Home />
+      <Projects />
+      <section id="sec-3"></section>
+    </main>
   );
 }
 
